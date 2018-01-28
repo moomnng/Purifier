@@ -1,15 +1,14 @@
 {
-  "name": "mews/purifier",
+  "name": "moomnng/purifier",
   "type": "package",
   "description": "Laravel 5 HtmlPurifier Package",
   "keywords": ["laravel5 HtmlPurifier", "laravel5 Purifier", "laravel5 Security", "HtmlPurifier", "Purifier", "security", "xss"],
-  "homepage": "https://github.com/mewebstudio/purifier",
+  "homepage": "https://github.com/moomnng/Purifier",
   "license": "MIT",
   "authors": [
     {
-      "name": "Muharrem ERİN",
-      "email": "me@mewebstudio.com",
-      "homepage": "https://github.com/mewebstudio",
+      "name": "todaychen",
+      "email": "todaychen@tencent.com",
       "role": "Developer"
     }
   ],
@@ -32,7 +31,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Mews\\Purifier\\": "src/"
+      "Moomnng\\Purifier\\": "src/"
     },
     "files": [
       "src/helpers.php"
@@ -40,16 +39,16 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "Mews\\Tests\\Purifier\\": "tests/"
+      "Moomnng\\Tests\\Purifier\\": "tests/"
     }
   },
     "extra": {
         "laravel": {
             "providers": [
-                "Mews\\Purifier\\PurifierServiceProvider"
+                "Moomnng\\Purifier\\PurifierServiceProvider"
             ],
             "aliases": {
-                "Purifier": "Mews\\Purifier\\Facades\\Purifier"
+                "Purifier": "Moomnng\\Purifier\\Facades\\Purifier"
             }
         }
     },
